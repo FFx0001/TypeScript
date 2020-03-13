@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "The test web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FFx0001/TypeScript.git"
+  },
+  "author": "FFx0001",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/FFx0001/TypeScript/issues"
+  },
+  "homepage": "https://github.com/FFx0001/TypeScript#readme"
+}
