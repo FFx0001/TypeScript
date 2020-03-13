@@ -1,0 +1,20 @@
+"use strict";
+var _number = 10;
+console.log("_number:", _number);
+var _numberDecimal = 10;
+console.log("_numberDecimal:10:", _numberDecimal);
+var _numberHex = 0x000a;
+console.log("_numberHex:0x000a:", _numberHex);
+var _numberBinary = 10;
+console.log("_numberBinary:0b1010:", _numberBinary);
+var _numberOctal = 10;
+console.log("_numberOctal:0o12:", _numberOctal);
+var _boolean = false;
+console.log("_boolean:", _boolean);
+var _string = "string";
+console.log("_string:", _string);
+var _stringTemplate = 'the new template ${_string}';
+console.log("_stringTemplate:", _stringTemplate);
+var _stringConcat = "the new concat" + _string;
+console.log("_stringConcat:", _stringConcat);
+//# sourceMappingURL=default_vars_types.js.map
