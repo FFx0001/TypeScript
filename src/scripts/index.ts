@@ -1,5 +1,6 @@
 let Links:string[] = [
     "default_vars_types",
+    "default_array_types",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){
