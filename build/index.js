@@ -1,7 +1,8 @@
+"use strict";
 var n = 0;
 function displayTotalPerPerson(person, total) {
-    var message = "Total for " + person + " is " + total + n;
+    var message = "Total for " + person + " is " + (total + n).toString();
     n++;
-    // @ts-ignore
     document.getElementById("totalMessage").innerText = message;
 }
+//# sourceMappingURL=index.js.map
