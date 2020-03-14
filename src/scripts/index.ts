@@ -2,6 +2,7 @@ let Links:string[] = [
     "default_vars_types",
     "default_array_types",
     "default_cortage_types",
+    "default_enum_types",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){

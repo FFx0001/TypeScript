@@ -3,6 +3,7 @@ var Links = [
     "default_vars_types",
     "default_array_types",
     "default_cortage_types",
+    "default_enum_types",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {
