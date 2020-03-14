@@ -7,6 +7,7 @@ let Links:string[] = [
     "default_TypeAssertions",
     "default_function_types",
     "default_function_context",
+    "default_arrow_functions",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){
