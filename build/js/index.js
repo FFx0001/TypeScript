@@ -4,6 +4,7 @@ var Links = [
     "default_array_types",
     "default_cortage_types",
     "default_enum_types",
+    "default_void_types",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {
