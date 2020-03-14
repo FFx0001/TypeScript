@@ -10,7 +10,7 @@ function repeatOperation(count:number,callback:()=>void):void{
 let settings = {
     ObjectName:"Test object",
     action1:function(){  repeatOperation(3,(function(){console.log(this.ObjectName);}).bind(this));},
-    action2:function(){  repeatOperation(5,(()=>console.log(this.ObjectName)).bind(this))},
+    action2:function(){  repeatOperation(5,()=>console.log(this.ObjectName))},
 };
 settings.action1();
 settings.action2();
