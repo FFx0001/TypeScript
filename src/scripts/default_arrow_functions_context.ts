@@ -9,12 +9,8 @@ function repeatOperation(count:number,callback:()=>void):void{
 
 let settings = {
     ObjectName:"Test object",
-    action1:function(){
-        let that = this;
-        repeatOperation(3,(function(){console.log(that.ObjectName);}));},
-    action2:function(){
-        let that = this;
-        repeatOperation(5,()=>console.log(that.ObjectName))},
+    action1:function(){  repeatOperation(3,(function(){console.log(this.ObjectName);}).bind(this));},
+    action2:function(){  repeatOperation(5,(()=>console.log(this.ObjectName)).bind(this))},
 };
 settings.action1();
 settings.action2();

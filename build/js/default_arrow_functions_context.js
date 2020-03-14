@@ -10,13 +10,10 @@ function repeatOperation(count, callback) {
 ;
 var settings = {
     ObjectName: "Test object",
-    action1: function () {
-        var that = this;
-        repeatOperation(3, (function () { console.log(that.ObjectName); }));
-    },
+    action1: function () { repeatOperation(3, (function () { console.log(this.ObjectName); }).bind(this)); },
     action2: function () {
-        var that = this;
-        repeatOperation(5, function () { return console.log(that.ObjectName); });
+        var _this = this;
+        repeatOperation(5, (function () { return console.log(_this.ObjectName); }).bind(this));
     },
 };
 settings.action1();
