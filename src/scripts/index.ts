@@ -9,6 +9,9 @@ let Links:string[] = [
     "default_function_context",
     "default_arrow_functions",
     "default_arrow_functions_context",
+    "default_overloads_functions",
+    "default_classes",
+    "default_iterators",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){
