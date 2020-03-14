@@ -5,6 +5,7 @@ let Links:string[] = [
     "default_enum_types",
     "default_void_types",
     "default_TypeAssertions",
+    "default_function_types",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){

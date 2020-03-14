@@ -6,6 +6,7 @@ var Links = [
     "default_enum_types",
     "default_void_types",
     "default_TypeAssertions",
+    "default_function_types",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {
