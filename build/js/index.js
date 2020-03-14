@@ -7,6 +7,7 @@ var Links = [
     "default_void_types",
     "default_TypeAssertions",
     "default_function_types",
+    "default_function_context",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {
