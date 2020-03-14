@@ -4,6 +4,7 @@ let Links:string[] = [
     "default_cortage_types",
     "default_enum_types",
     "default_void_types",
+    "default_TypeAssertions",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){
