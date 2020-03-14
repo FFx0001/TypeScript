@@ -9,6 +9,7 @@ var Links = [
     "default_function_types",
     "default_function_context",
     "default_arrow_functions",
+    "default_arrow_functions_context",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {
