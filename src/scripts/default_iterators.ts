@@ -56,15 +56,15 @@ let point3D = {...point2D,z:128};
 console.log("point2D",point2D);
 console.log("spreaded point3D",point3D);
 // for in and for of
-class test {
+class testClass {
     constructor(public Name:string, public Value:number) { }
 }
-let testvalues:test[]=[];
-testvalues[0] = new test("Andrey", 11);
-testvalues[1] = new test("Victor", 22);
-testvalues[2] = new test("Vladislav", 33);
-testvalues[3] = new test("Olga", 77);
-testvalues[4] = new test("Yan", 42);
+let testvalues:testClass[]=[];
+testvalues[0] = new testClass("Andrey", 11);
+testvalues[1] = new testClass("Victor", 22);
+testvalues[2] = new testClass("Vladislav", 33);
+testvalues[3] = new testClass("Olga", 77);
+testvalues[4] = new testClass("Yan", 42);
 // for in
 for(let index in testvalues){
     console.log("For In:",index);

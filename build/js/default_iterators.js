@@ -51,19 +51,19 @@ var point2D = { x: 22, y: 55 };
 var point3D = __assign(__assign({}, point2D), { z: 128 });
 console.log("point2D", point2D);
 console.log("spreaded point3D", point3D);
-var test = (function () {
-    function test(Name, Value) {
+var testClass = (function () {
+    function testClass(Name, Value) {
         this.Name = Name;
         this.Value = Value;
     }
-    return test;
+    return testClass;
 }());
 var testvalues = [];
-testvalues[0] = new test("Andrey", 11);
-testvalues[1] = new test("Victor", 22);
-testvalues[2] = new test("Vladislav", 33);
-testvalues[3] = new test("Olga", 77);
-testvalues[4] = new test("Yan", 42);
+testvalues[0] = new testClass("Andrey", 11);
+testvalues[1] = new testClass("Victor", 22);
+testvalues[2] = new testClass("Vladislav", 33);
+testvalues[3] = new testClass("Olga", 77);
+testvalues[4] = new testClass("Yan", 42);
 for (var index in testvalues) {
     console.log("For In:", index);
 }

@@ -13,6 +13,7 @@ var Links = [
     "default_overloads_functions",
     "default_classes",
     "default_iterators",
+    "default_interfaces",
 ];
 var DomContext = '';
 for (var i = 0; i < Links.length; i++) {

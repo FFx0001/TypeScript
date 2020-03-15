@@ -12,6 +12,7 @@ let Links:string[] = [
     "default_overloads_functions",
     "default_classes",
     "default_iterators",
+    "default_interfaces",
 ];
 var DomContext:string = '';
 for(let i=0;i<Links.length;i++){
